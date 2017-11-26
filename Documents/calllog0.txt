@@ -1,4 +1,4 @@
-/usr/bin/python3.6 /home/jandh/proj04/main3.py
+/usr/bin/python3.6 /home/jandh/dat/Projects/GraphicalExperiments/Experiments/main1.py
 ctx.set_source_rgb(0, 0, 0)
 ctx.set_line_width(SIZE / 4)
 ctx.set_tolerance(0.1)

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-<<<<<<< HEAD
 """
 Based on cairo-demo/X11/cairo-demo.c
 """
+
 
 import cairo
 import gi

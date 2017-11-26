@@ -12,6 +12,9 @@ try:
 except ImportError:
     print("No pycairo integration :(")
 
+def getxywh(da):
+    allocation = da.get_allocation()
+    return allocation.x, allocation.y, allocation.width, allocation.height
 
 def draw(da, ctx):
     """
@@ -28,10 +31,20 @@ def draw(da, ctx):
     #   green 	green component of color
     #   blue 	blue component of color
 
-    # clear background (?)
-    # ctx.set_source_rgb(1,1,1)
+    # clear background
+    ctx.set_source_rgb(1, 1, 1)
+    ctx.new_path()
 
-    ctx.set_source_rgb()
+    x, y, w, h = getxywh(da)
+
+    ctx.line_to(0, 0)
+    ctx.line_to(w, 0)
+    ctx.line_to(w, h)
+    ctx.line_to(0, h)
+    ctx.fill()
+
+
+    ctx.set_source_rgb(0,0,0)
 
 
 
