@@ -1,0 +1,66 @@
+ctx.set_source_rgb
+ctx.set_line_width
+ctx.set_tolerance
+ctx.set_line_join
+ctx.set_dash
+ctx.save
+
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to                                                ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.close_path       ctx.stroke
+
+ctx.restore
+ctx.set_dash
+ctx.save
+
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to                                                ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.close_path       ctx.stroke
+
+ctx.restore
+ctx.set_line_join
+ctx.save
+
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to                                                ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.close_path       ctx.stroke
+
+ctx.restore
+ctx.set_line_join
+ctx.save
+
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to                                                ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.close_path       ctx.stroke
+
+ctx.restore
+ctx.save
+
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.fill
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.fill
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to                                                ctx.close_path       ctx.fill
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.close_path       ctx.fill
+
+ctx.restore
+ctx.set_line_join
+ctx.save
+
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.fill
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.fill
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to                                                ctx.close_path       ctx.fill
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.close_path       ctx.fill
+
+ctx.restore
+ctx.set_source_rgb
+ctx.save
+
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to      ctx.rel_line_to                           ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_line_to      ctx.rel_line_to                                                ctx.close_path       ctx.stroke
+ctx.new_path         ctx.translate        ctx.move_to          ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.rel_curve_to     ctx.close_path       ctx.stroke
+
+ctx.restore
